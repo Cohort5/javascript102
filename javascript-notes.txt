@@ -1,0 +1,70 @@
+https://www.youtube.com/watch?v=vEROU2XtPR8
+
+What is JavaScript?
+    a programing language that is used to make web pages interactive
+    interpreted language
+    runs on the client's computer/browser
+        no special server like php, ruby - using a Json file
+    object based
+JavaScript is NOT Java!
+    have similar names but are completly different
+    Java is much more complex, highlevel language in the same category as C and C++
+        used to build desktop applications, games, etc..
+    JavaScript is a "scripting" language, light weight language, interpreted by web browser, when page is loaded
+    
+Programing Fundamentals
+    Variables, Arrays, Loops, Conditionals
+        Arrays are groups of variables, 
+        Loops are used to iterate thru data, and then do whatever you want, like output to the screen 
+        Conditionals, if statements, if else, switches
+    Comparison & Operators, Objects, Functions, Program Flow
+    Data Types, Prototypes, Events
+    Data Types, such as strings and numbers
+    Events or actions, assocaited with that element to make it ineractive on a webpage
+    
+What do I need to run JavaScript?
+    modern webrowser
+    to create JavaScript, all you need is a text editor, cross platform
+        ie: Notepad, SublimeText, Textmate, etc...
+    
+HTML vs. JavaScript
+    they are completly different and work together
+    HTML is a mark up language and JavaScript is a programing language
+    HTML is used to display webpages, 
+    JavaScript uses "events" and "actions" to make your page interactive
+    lear HTML first
+
+What can I do with JavaScript?
+    put content in an HTML page on the fly
+    makes webpages responsive   
+    detects a users browser & other information, operating systems
+    create cookies  
+    validate forms
+    create animations, slideshows, scrollers, etc. 
+    build apps with JavaScript frameworks
+        ie: AngularJS, ReactJS, BackboneJS, etc.
+        
+NodeJS - which is JavaScript running on the server, more advanced.
+
+variables and data types 
+to start writting JavaScript you can link it using this file: <script src="test.js"></script>-->
+
+to start writting JavaScript you can just put it into HTML like this: 
+<script>
+    alert('Script Tags Work');
+</script>
+
+Using th following data types:
+    Numbers, Strings, Arrays, Objects @ 11:45
+
+
+
+
+        
+    
+    
+    
+    
+    
+    
+    
