@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--variables and data types-->
+<html>
+
+<head>
+    <title>Learning JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--to start writting JavaScript you can link it using this file-->
+    <!--    <script src="test.js"></script>-->
+</head>
+
+<body>
+    <div class="header">
+        <h1 id="heading">Learning JavaScript</h1>
+        <p>With Paul L. Costa</p>
+
+    </div>
+    <!--Event handling for clicks, strolls, or drags-->
+    <div class="container">
+     
+    <form method="post" action="something.php" name="
+    myForm" onsubmit="return validateForm()">
+    <div>
+        <label>First Name</label>
+        <input type="text" name="firstName" id="firstName" />
+    </div>
+    <br />
+    <div>
+        <label>Last Name</label>
+        <input type="text" name="lastName" id="lastName" />
+    </div>
+    <br />
+    <div>
+       
+    </div>
+    <br />
+    <input type="submit" value="Submit" />
+    </form> 
+      
+    </div>
+
+    <!--to start writting JavaScript you can link it from a file or just put it into HTML-->
+
+    <script>
+    function validateForm() {
+        var firstName = document.forms["myFrom"]["firstName"].value;
+    
+        if (firstName == null || firstName == "") {
+        alert("First name is required");
+        return false;
+    }
+
+        if (firstName.length < 3) {
+        alert("First name must be at leaset 3 chars");
+        return false;
+    }
+}    
+        
+    
+        
+    </script>
+    <!--Numbers only var numb1 = 0; -->
+    <!--Strings w/in ""or'', Arrays, Objects-->
+    <!--alot easier to select elements from the DOM using Jqwery-->
+    <!--basics of form validatation with JavaScript-->
+    <!--form validatation on the server side, JavaScript is only done on the client-->
+    <!--JavaScript Fundamentals for Beginners-->
+    <!--global to all programing languages-->
+    
+
+</body>
+
+</html>

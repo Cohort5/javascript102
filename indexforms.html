@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--variables and data types-->
+<html>
+
+<head>
+    <title>Learning JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--to start writting JavaScript you can link it using this file-->
+    <!--    <script src="test.js"></script>-->
+</head>
+
+<body id="body">
+    <div class="header">
+        <h1 id="heading">Learning JavaScript</h1>
+        <p>With Paul L. Costa</p>
+
+    </div>
+    <!--Event handling for clicks, strolls, or drags-->
+    <div class="container">
+     
+    <form method="post" action="something.php" name="
+    myForm">
+    <div>
+        <label>First Name</label>
+        <input type="text" name="firstName" id="firstName" />
+    </div>
+    <br />
+    <div>
+        <label>Last Name</label>
+        <input type="text" name="lastName" id="lastName" />
+    </div>
+    <br />
+    <div>
+        <label>Background</label>
+        <select name="background" id="background"
+        onchange="changeBackground(this)">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+        </select>
+    </div>
+    <br />
+    <input type="submit" value="Submit" />
+    </form> 
+      
+    </div>
+
+    <!--to start writting JavaScript you can link it from a file or just put it into HTML-->
+
+    <script>
+    function changeBackground(x) {
+        console.log(x.value); 
+        var heading = document.getElementById('heading');
+        heading.style.color = x.value;
+        
+        // var body = document.getElementById('body');
+        // body.style.backgroundColor = x.value;
+        
+        // console.log(x); 
+        // console.log('Hello'); 
+        // just to make sure the event works
+    }
+        
+    </script>
+    <!--Numbers only var numb1 = 0; -->
+    <!--Strings w/in ""or'', Arrays, Objects-->
+
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--variables and data types-->
+<html>
+
+<head>
+    <title>Learning JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--to start writting JavaScript you can link it using this file-->
+    <!--    <script src="test.js"></script>-->
+</head>
+
+<body onload="showDate()">
+    <div class="header">
+        <h1 id="heading">Learning JavaScript</h1>
+        <p>With Paul L. Costa</p>
+
+    </div>
+    <!--Event handling for clicks, strolls, or drags-->
+    <div class="container">
+        
+        
+        <button onmouseout="clearDate()" onmouseover="showDate()">Show Date</button>
+        <h1 id="time"></h1>
+        <!--<button onmouseover="showDate()">Show Date</button>-->
+        
+        <!--<button onclick="showDate()">Show Date</button> -->
+        
+        <!--<button onclick="doClick()">Click Me</button>custom function-->
+
+        <!--<button onclick="this.innerHTML ='You Clicked!'">Click Me</button> JavaScript core function-->
+
+        <!--<button onclick="changeText(this)">Click Me</button> -->
+
+    </div>
+
+    <!--to start writting JavaScript you can link it from a file or just put it into HTML-->
+
+    <script>
+        function showDate(id) {
+            var time = document.getElementById('time');
+            time.innerHTML = Date();
+        }
+        
+        function clearDate(){
+            var time = document.getElementById('time');
+            time.innerHTML = '';
+        }
+
+        // function changeText(id) {
+        //     var heading = document.getElementById('heading');
+        //     heading.innerHTML = 'You Clicked! ';
+        // }
+
+        // function changeText(id) {
+        //     id.innerHTML = 'You Clicked! ';
+        // }
+
+        // function doClick() {
+        //     alert('You Clicked! ');
+        // }
+    </script>
+    <!--Numbers only var numb1 = 0; -->
+    <!--Strings w/in ""or'', Arrays, Objects-->
+
+</body>
+
+</html>

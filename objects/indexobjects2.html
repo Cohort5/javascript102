@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<!--variables and data types-->
+<html>
+
+<head>
+    <title>Learning JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+<!--to start writting JavaScript you can link it using this file-->
+<!--    <script src="test.js"></script>-->
+</head>
+<body>
+    <div class="header">
+        <h1>Learning JavaScript</h1>
+        <p>With Paul L. Costa</p>
+        
+    </div>
+    
+    <div class="container">
+        
+    </div>
+    
+<!--to start writting JavaScript you can link it from a file or just put it into HTML-->
+<script>
+    // Object Cunstructor in (JSON) + arrays, embedded objects, include functions, key word "this" refers to the current object that it's w/in, in this case "apple".
+    
+    var apple  = new Object();
+        apple.color = 'red';
+        apple.shape = 'round';
+        
+        apple.describe = function() {
+            return 'An apple is the color '+this.color+" and it's shape is "+this.shape;
+        };
+        
+    console.log(apple.describe());     
+    // console.log(apple.color);    
+   
+</script>
+    <!--Numbers only var numb1 = 0; -->
+    <!--Strings w/in ""or'', Arrays, Objects-->
+    
+</body>
+
+</html>
+
