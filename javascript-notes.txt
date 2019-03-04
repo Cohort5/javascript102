@@ -56,7 +56,7 @@ to start writting JavaScript you can just put it into HTML like this:
 </script>
 
 Using th following data types:
-    Numbers, Strings, Arrays, Objects @ 11:45
+    Numbers, Strings, Arrays, Objects, Loops
 
 
 
