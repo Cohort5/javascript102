@@ -1,5 +1,5 @@
 https://www.youtube.com/watch?v=vEROU2XtPR8
-Traversy Meida
+Traversy Meida, Brad
 
 What is JavaScript?
     a programing language that is used to make web pages interactive
